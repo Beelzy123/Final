@@ -7,7 +7,7 @@
 - Đánh giá trên tập test:
   - mAP@0.5 = **0.00**
   - mAP@0.5:0.95 (COCO) = **0.00**
-  - Tổng 118 dự đoán: IoU trung bình 0.1916, trung vị 0.1153, chỉ 11/118 dự đoán (≈9.32%) đạt IoU ≥ 0.5.
+  - Tổng 118 dự đoán: IoU trung bình 0.1916, trung vị 0.1153, chỉ 11/118 dự đoán (9.32%) đạt IoU ≥ 0.5.
 - Nhận xét:
   - Mô hình gần như không phát hiện được đối tượng (mAP = 0).
   - Nguyên nhân khả dĩ: đặc trưng đơn giản, mất cân bằng mẫu, cảnh báo trích xuất đặc trưng/NumPy; cần mô hình mạnh hơn (ví dụ backbone học sâu) hoặc cải thiện bước tạo nhãn huấn luyện.
