@@ -2,7 +2,7 @@
 
 ## Đánh giá notebook `CPV_MLBase_need_fix.ipynb`
 - Pipeline: EdgeBoxes đề xuất vùng + đặc trưng HOG kết hợp histogram màu HSV + Linear SVM (có 1 vòng hard-negative mining).
-- Dataset YOLO: 7 Lớp (`Backpack`, `Book`, `Bottle`, `Cup`, `Laptop`, `Phone`, `Wallet`) với 3,665 ảnh train, 488 validation và 189 test.
+- Dataset YOLO: 7 lớp (`Backpack`, `Book`, `Bottle`, `Cup`, `Laptop`, `Phone`, `Wallet`) với 3,665 ảnh train, 488 validation và 189 test.
 - Đặc trưng:
   - Vector 420 chiều.
   - Tập train ban đầu: 61,753 mẫu (phần lớn là nền `-1`; lớp Laptop: 6,636; các lớp khác: ~100–2,400).
