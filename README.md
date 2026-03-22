@@ -8,4 +8,7 @@
   - mAP@0.5 = **0.00**
   - mAP@0.5:0.95 (COCO) = **0.00**
   - Tổng 118 dự đoán: IoU trung bình 0.1916, trung vị 0.1153, chỉ ~9.3% dự đoán đạt IoU ≥ 0.5.
-- Nhận xét: Mô hình gần như không phát hiện được đối tượng (mAP = 0). Hiệu quả thấp có thể do đặc trưng đơn giản, mất cân bằng mẫu và các cảnh báo trích xuất đặc trưng/NumPy; cần mô hình mạnh hơn (ví dụ backbone học sâu) hoặc cải thiện bước tạo nhãn huấn luyện. Kết quả này được ghi nhận như baseline hiện tại để làm mốc so sánh cho các lần cải thiện tiếp theo (không phải kết quả cuối cùng mong muốn).
+- Nhận xét:
+  - Mô hình gần như không phát hiện được đối tượng (mAP = 0).
+  - Nguyên nhân khả dĩ: đặc trưng đơn giản, mất cân bằng mẫu, cảnh báo trích xuất đặc trưng/NumPy; cần mô hình mạnh hơn (ví dụ backbone học sâu) hoặc cải thiện bước tạo nhãn huấn luyện.
+  - Kết quả được ghi nhận như baseline hiện tại để làm mốc so sánh cho các lần cải thiện tiếp theo (không phải kết quả cuối cùng mong muốn).
